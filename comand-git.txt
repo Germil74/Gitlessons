@@ -1,0 +1,1 @@
+﻿git clone https://github.com/Germil74/Gitlessons.git .  - точка означает клонировать в тикущую директорию
