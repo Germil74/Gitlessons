@@ -4,3 +4,20 @@
 3 git status
 4 git commit -m"start project"
 5 git push origin main
+6 git log
+
+commit 7e753cffde07a5b7e5e63c8c9d94d228abc876f4 (HEAD -> main, origin/main, origin/HEAD)
+Author: genaWorkLab <gve@vlgm.ru>
+Date:   Tue May 11 11:21:30 2021 +0300
+
+    start project
+
+commit d61998ea6efacbbfcf2747d43de140163a2cda51
+Author: Germil74 <40329656+Germil74@users.noreply.github.com>
+Date:   Tue May 11 11:10:58 2021 +0300
+
+    Initial commit
+
+7 git checkout origin/main;                git отделил (detached) HEAD
+8 git add .
+9 git commit -m "added checkout origin/main"    не обновил, обновится тогда и только тогда, когда обновится сам удалённый репозиторий. 
