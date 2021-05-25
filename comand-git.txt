@@ -45,6 +45,9 @@ git commit -m "added pull"
 git fakeTeamwork      имулирует дабовление комитов на удалённой ветке
 git fakeTeamwork foo 3
 
+-----
+git push  origin foo
+
 
 
 
